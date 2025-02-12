@@ -1,8 +1,8 @@
-import Die from "./Die";
+import RollDice from "./RollDice";
 
 function App() {
     return (<div>
-            <Die face='five'/>
+            <RollDice />
     </div>)
 }
 
