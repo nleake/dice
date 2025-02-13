@@ -22,3 +22,18 @@
     background-color: darkslateblue;
     cursor: pointer;
 }
+
+.RollDice button:disabled {
+    background-color: grey;
+    opacity: 75%;
+    cursor:default;
+}
+
+
+@keyframes wobble {
+    33% {
+      transform: rotate(5deg);
+    }
+    66% {
+      transform: rotate(-5deg);
+}
